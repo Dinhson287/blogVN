@@ -1,0 +1,97 @@
+/* trang chủ */
+.menu>a>img{
+    width: 50px;
+    border-radius: 50%;
+}
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Itim', cursive;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    padding: 20px;
+    background-image: url('colorful-2468874_1920.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat; /* Ngăn lặp lại ảnh nền */
+    
+    background-color: #f4f4f4; /* Màu nền phụ */
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius:5px ;
+}
+.menu h2 {
+    margin-right: 70% ;
+}
+.menu a {
+    display: inline;
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+   
+}
+
+h1 {
+    margin-top: 20px;
+    text-align: center;
+    padding-bottom: 150px;
+    text-shadow: -0.5px -0.5px 0 #ffffff,  
+                  0.5px -0.5px 0 #ffffff,
+                 -0.5px  0.5px 0 #ffffff,
+                 0.5px  0.5px 0 #ffffff;
+}
+
+.post {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.post h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+.post h4{
+    color: #333;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.post p {
+    color: #666;
+}
+
+
+/* CSS cho footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    border-radius: 5px;
+}
+
+footer p {
+    margin: 0;
+}
+
+
+
+

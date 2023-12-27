@@ -1,0 +1,113 @@
+.menu>a>img{
+    width: 50px;
+    border-radius: 50%;
+}
+body {
+    font-family: 'Itim', cursive;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    padding: 20px;
+    background-image: url('colorful-2468874_1920.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat; /* Ngăn lặp lại ảnh nền */
+    
+    background-color: #f4f4f4; /* Màu nền phụ */
+}
+p{
+    margin-right: 10px;
+}
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius:5px ;
+}
+.menu h2 {
+    margin-right: 70% ;
+}
+.menu a {
+    display: inline;
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+}
+.menu a:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    margin-top: 20px;
+    text-align: center;
+    padding-bottom: 150px;
+    text-shadow: -0.5px -0.5px 0 #ffffff,  
+                  0.5px -0.5px 0 #ffffff,
+                 -0.5px  0.5px 0 #ffffff,
+                 0.5px  0.5px 0 #ffffff;
+}
+
+
+
+/* Định dạng label và input */
+.post{
+    margin-left: 25%;
+    margin-right: 25%;
+}
+label {
+    display: block; /* Hiển thị mỗi label trên một dòng mới */
+    margin-bottom: 10px; 
+    font-weight: bold; 
+    text-shadow: -0.5px -0.5px 0 #ffffff,  
+                  0.5px -0.5px 0 #ffffff,
+                 -0.5px  0.5px 0 #ffffff,
+                 0.5px  0.5px 0 #ffffff;
+    font-size: larger;
+
+}
+
+input[type="text"],
+textarea {
+    width: 100%; 
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+}
+
+textarea {
+    height: 150px; 
+}
+
+input[type="submit"] {
+    padding: 10px 20px; 
+    background-color: #007bff; 
+    color: #fff; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3; /* Màu nền khi hover */
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    border-radius: 5px;
+}
+
+footer p {
+    margin: 0;
+}
